@@ -1,0 +1,24 @@
+//no return type and no arguments
+#include<stdio.h>
+void sum();//function declaration
+int main()
+{   //function calling
+    sum();
+    return 0;
+}
+//function definition or body
+void sum()
+{
+    int a,b;
+    printf("enter any two values: ");
+    scanf("%d%d",&a,&b);
+    printf("\n the sum of %d and %d is %d ",a,b,a+b);
+}
+
+
+
+Output: 
+
+enter any two values: 8 5
+
+ the sum of 8 and 5 is 13

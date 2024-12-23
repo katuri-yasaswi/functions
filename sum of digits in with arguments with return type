@@ -6,7 +6,7 @@ int main()
     printf("enter a number");
     scanf("%d",&n);
     res=sum(n);
-    printf("\n the sum of digits od given number is %d",res);
+    printf("\n the sum of digits  given number is %d",res);
     return 0;
 }
 int sum(int n)

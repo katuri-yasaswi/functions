@@ -1,0 +1,24 @@
+//with arguments wit return types
+#include<stdio.h>
+int sum(int a,int b);
+int main()
+{
+
+    int a,b,res;
+    printf("enter any two numbers");
+    scanf("%d%d",&a,&b);
+    res=sum(a,b);
+    printf("\nthe res is %d",res);
+    return 0;
+}
+int sum(int a,int b)
+{
+
+    return a+b;
+}
+
+Output:  
+
+enter any two numbers 4 7
+
+the res is 11
